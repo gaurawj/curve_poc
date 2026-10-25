@@ -1,0 +1,38 @@
+[true cause: normal]
+S235-t00208: no plausibility concerns.
+
+[true cause: extensometer_slip]
+S235-t00390: FLAGGED for review (advisory only, results unchanged)
+  1. Extensometer slip or knife-edge movement
+     where: 6.74 to 7.71 % strain (yield / hardening region)
+     why:   strain advanced 49x faster than the median rate in a single sample
+
+[true cause: premature_fracture]
+S235-t00389: FLAGGED for review (advisory only, results unchanged)
+  1. Premature fracture (specimen defect, break at the grip, or damaged specimen)
+     where: 8.66 to 8.96 % strain (yield / hardening region)
+     why:   fracture at 9.0 % strain vs typical 30.0 % for this material
+
+[true cause: noise_spikes]
+S235-t00435: FLAGGED for review (advisory only, results unchanged)
+  1. Electrical noise or load-cell / cable issue
+     where: 20.82 to 21.16 % strain (necking region)
+     why:   10 spike / noise-burst samples (second difference above 12 noise sigmas)
+
+[true cause: grip_slippage]
+S235-t00322: FLAGGED for review (advisory only, results unchanged)
+  1. Grip slippage
+     where: 0.05 to 0.06 % strain (elastic region)
+     why:   load fell 1.2 % of Rm in a single sample before the maximum force
+
+[true cause: preload_offset]
+S235-t00466: FLAGGED for review (advisory only, results unchanged)
+  1. Zero or preload error
+     where: -0.00 to 0.01 % strain (elastic region)
+     why:   first-sample load is -5.9 % of Rm
+
+[true cause: misalignment]
+S235-t00336: FLAGGED for review (advisory only, results unchanged)
+  1. Misalignment or bending (low apparent modulus)
+     where: 0.02 to 0.12 % strain (elastic region)
+     why:   apparent modulus 169 GPa vs typical 205 GPa (-18 %)
